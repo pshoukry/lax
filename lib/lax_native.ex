@@ -35,10 +35,12 @@ defmodule LaxNative do
     quote do
       use LiveViewNative.LiveView,
         formats: [
-          :swiftui
+          :swiftui,
+          :jetpack
         ],
         layouts: [
-          swiftui: {LaxWeb.Layouts.SwiftUI, :app}
+          swiftui: {LaxWeb.Layouts.SwiftUI, :app},
+          jetpack: {LaxWeb.Layouts.Jetpack, :app}
         ]
 
       unquote(verified_routes())

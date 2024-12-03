@@ -65,15 +65,19 @@ config :phoenix, :json_library, Jason
 
 config :live_view_native,
   plugins: [
-    LiveViewNative.SwiftUI
+    LiveViewNative.SwiftUI,
+    LiveViewNative.Jetpack
   ]
 
 config :mime, :types, %{
   "text/swiftui" => ["swiftui"],
+  "text/jetpack" => ["jetpack"],
   "text/styles" => ["styles"]
 }
 
-config :phoenix_template, :format_encoders, swiftui: Phoenix.HTML.Engine
+config :phoenix_template, :format_encoders,
+  swiftui: Phoenix.HTML.Engine,
+  jetpack: Phoenix.HTML.Engine
 
 config :phoenix, :template_engines, neex: LiveViewNative.Engine
 

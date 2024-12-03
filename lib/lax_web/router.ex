@@ -4,13 +4,14 @@ defmodule LaxWeb.Router do
   import LaxWeb.UserAuth
 
   pipeline :browser do
-    plug :accepts, ["html", "swiftui"]
+    plug :accepts, ["html", "swiftui", "jetpack"]
     plug :fetch_session
     plug :fetch_live_flash
 
     plug :put_root_layout,
       html: {LaxWeb.Layouts, :root},
-      swiftui: {LaxWeb.Layouts.SwiftUI, :root}
+      swiftui: {LaxWeb.Layouts.SwiftUI, :root},
+      jetpack: {LaxWeb.Layouts.Jetpack, :root}
 
     plug :protect_from_forgery
     plug :put_secure_browser_headers

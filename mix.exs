@@ -66,6 +66,8 @@ defmodule Lax.MixProject do
        github: "liveview-native/live_view_native_stylesheet", branch: "main"},
       {:live_view_native_swiftui,
        github: "liveview-native/liveview-client-swiftui", branch: "main"},
+      {:live_view_native_jetpack,
+       github: "liveview-native/liveview-client-jetpack", branch: "main"},
       {:live_view_native_live_form,
        github: "liveview-native/liveview-native-live-form", branch: "main"},
       {:pigeon, "~> 1.6.2"},

@@ -31,6 +31,7 @@
   "jose": {:hex, :jose, "1.11.10", "a903f5227417bd2a08c8a00a0cbcc458118be84480955e8d251297a425723f83", [:mix, :rebar3], [], "hexpm", "0d6cd36ff8ba174db29148fc112b5842186b68a90ce9fc2b3ec3afe76593e614"},
   "kadabra": {:hex, :kadabra, "0.6.0", "8d8de886802f38d86d2c250eb9416e3208b5e4b78ce8409b40b4d57f21d21fc9", [:mix], [{:certifi, "~> 2.5", [hex: :certifi, repo: "hexpm", optional: false]}, {:hpack, "~> 0.2.3", [hex: :hpack_erl, repo: "hexpm", optional: false]}], "hexpm", "0cdaf72fc6205cba62da9e49ee6b24b7c50adb6d9f8b0e92b4b1847959371403"},
   "live_view_native": {:git, "https://github.com/liveview-native/live_view_native.git", "65fc88252a21342116ed4ce4791e09c49d9d4c32", [branch: "main"]},
+  "live_view_native_jetpack": {:git, "https://github.com/liveview-native/liveview-client-jetpack.git", "6f5fc51c229c20375f32ac5f36af2a57b40a9f07", [branch: "main"]},
   "live_view_native_live_form": {:git, "https://github.com/liveview-native/liveview-native-live-form.git", "84e9368996c8e869727548cfd6180b86fb5277f1", [branch: "main"]},
   "live_view_native_stylesheet": {:git, "https://github.com/liveview-native/live_view_native_stylesheet.git", "10ca59477c049901b1b0de717ddb08d2eb30dadd", [branch: "main"]},
   "live_view_native_swiftui": {:git, "https://github.com/liveview-native/liveview-client-swiftui.git", "9fe36d46499dfe3c9af29444a03e9f94a85742b4", [branch: "main"]},
