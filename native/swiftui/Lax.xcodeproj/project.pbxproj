@@ -256,7 +256,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lax/Lax.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = D56Q3ZQ28V;
+				DEVELOPMENT_TEAM = 4TP757LC3E;
 				INFOPLIST_FILE = Lax/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Lax;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
@@ -443,7 +443,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Lax/Lax.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = D56Q3ZQ28V;
+				DEVELOPMENT_TEAM = 4TP757LC3E;
 				INFOPLIST_FILE = Lax/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = Lax;
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
